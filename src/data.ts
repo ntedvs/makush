@@ -14,7 +14,7 @@ import piece7 from "@/media/featured/Art 7.jpg"
 import piece8 from "@/media/featured/Art 8.jpg"
 import piece9 from "@/media/featured/Art 9.png"
 
-export default {
+const data = {
   banner: [
     { image: banner1, title: "Portrait Series", author: "Bethlehem Alemu" },
     { image: banner2, title: "Abstract Landscapes", author: "Dawit Mengistu" },
@@ -172,3 +172,5 @@ export default {
     },
   ],
 }
+
+export default data

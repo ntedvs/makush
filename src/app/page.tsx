@@ -16,7 +16,7 @@ export default function Home() {
           Makush Art Gallery is a must-visit for art enthusiasts eager to
           explore the works of new and emerging artists in Addis Ababa. We have
           a collection of contemporary paintings, including portraits,
-          landscapes, and urban collages that offer insight into the city's
+          landscapes, and urban collages that offer insight into the city&apos;s
           evolving art scene.
         </p>
       </div>

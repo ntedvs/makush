@@ -5,7 +5,7 @@ import { Karla } from "next/font/google"
 import Link from "next/link"
 import { ReactNode } from "react"
 
-const karla = Karla({ weight: "400" })
+const karla = Karla({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: { default: "Makush", template: "%s - Makush" },
