@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+}
+
+@layer base {
+  h2 {
+    @apply text-center text-5xl font-bold;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .push {
+    @apply mx-auto max-w-4xl;
+  }
+
+  .muted {
+    @apply text-foreground/60;
+  }
+}
