@@ -10,11 +10,11 @@ export default function Story() {
         <Image src={about} alt={""} />
 
         <p>
-          Makush Gallery stands as a cornerstone of Ethiopia's art tourism
+          Makush Gallery stands as a cornerstone of Ethiopia&apos;s art tourism
           sector, offering visitors an authentic cultural experience in Addis
-          Ababa's vibrant Bole district. This unique venue combines a
+          Ababa&apos;s vibrant Bole district. This unique venue combines a
           contemporary art gallery with a restaurant, creating a space that
-          delights both the eyes and palate while showcasing Ethiopia's
+          delights both the eyes and palate while showcasing Ethiopia&apos;s
           flourishing artistic talent to international visitors and their
           guides.
         </p>
@@ -42,13 +42,13 @@ export default function Story() {
 
         <p>
           Beyond art sales, Makush serves as a cultural hub that strengthens
-          Ethiopia's international relationships. The gallery maintains strong
-          connections with 15,000 families worldwide who have adopted Ethiopian
-          children, hosts diplomatic events at various embassies, and organizes
-          networking dinners for expatriates and local businesses. With
-          memberships in the Ethiopian Tour Operators Association and a robust
-          digital presence across platforms like TripAdvisor and BBC, Makush
-          continues to attract foreign visitors while supporting local
+          Ethiopia&apos;s international relationships. The gallery maintains
+          strong connections with 15,000 families worldwide who have adopted
+          Ethiopian children, hosts diplomatic events at various embassies, and
+          organizes networking dinners for expatriates and local businesses.
+          With memberships in the Ethiopian Tour Operators Association and a
+          robust digital presence across platforms like TripAdvisor and BBC,
+          Makush continues to attract foreign visitors while supporting local
           businesses and generating foreign currency through diverse channels.
         </p>
       </div>
