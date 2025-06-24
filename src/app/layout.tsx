@@ -14,7 +14,9 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`bg-background text-foreground ${karla.className}`}>
+      <body
+        className={`flex min-h-screen flex-col bg-background text-foreground ${karla.className}`}
+      >
         <div className="fixed top-0 right-0 left-0 z-10 bg-background/40 p-4 backdrop-blur-md">
           <div className="push flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold">
@@ -31,10 +33,10 @@ export default function Layout({ children }: { children: ReactNode }) {
 
         <div className="h-16" />
 
-        <main>{children}</main>
+        <main className="grow">{children}</main>
 
-        <footer className="push mt-28 space-y-8 p-4">
-          <div className="grid grid-cols-3">
+        <footer className="push mt-24 w-full space-y-8 px-4 pb-4">
+          <div className="grid gap-4 md:grid-cols-3">
             <div className="space-y-2">
               <p className="text-xl font-bold">Contact</p>
 
@@ -45,7 +47,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
               <div className="flex items-center gap-2">
                 <Phone className="size-5" />
-                <p>+251 911 418 602</p>
+                <p>+251 91 141 8602</p>
               </div>
 
               <div className="flex items-center gap-2">
@@ -76,17 +78,23 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <Link href="https://facebook.com/makush" target="_blank">
                   <Facebook />
                 </Link>
-
-                {/* <Link href="/" target="_blank">
-                  <Twitter />
-                </Link> */}
               </div>
             </div>
           </div>
 
-          <p className="muted text-center">
-            © {new Date().getFullYear()} Makush. All rights reserved.
-          </p>
+          <div className="muted flex flex-col justify-between md:flex-row">
+            <p>© {new Date().getFullYear()} Makush. All rights reserved.</p>
+
+            <p>
+              Made by{" "}
+              <Link
+                href="https://github.com/ntedvs"
+                className="hover:text-foreground"
+              >
+                Alloy Studios
+              </Link>
+            </p>
+          </div>
         </footer>
       </body>
     </html>

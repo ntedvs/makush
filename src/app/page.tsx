@@ -28,7 +28,7 @@ export default function Home() {
           masterpieces
         </p>
 
-        <div className="mb-8 grid grid-cols-3 gap-8 px-8">
+        <div className="mb-8 grid grid-cols-2 gap-8 px-8 md:grid-cols-3">
           {data.featured.map(({ image, slug, title }) => (
             <Link href={`/collection/${slug}`} key={slug}>
               <Image
@@ -55,7 +55,7 @@ export default function Home() {
           Stay informed with our latest articles on art, culture, and collecting
         </p>
 
-        <div className="mb-8 grid grid-cols-3 gap-8 px-8">
+        <div className="mb-8 grid gap-8 px-8 md:grid-cols-3">
           {data.blog.map(({ image, slug, title, description }) => (
             <Link href={`/blog/${slug}`} className="shadow-xl" key={slug}>
               <Image

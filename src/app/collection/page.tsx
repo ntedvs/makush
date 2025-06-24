@@ -16,7 +16,7 @@ export default function Collection() {
         </p>
       </div>
 
-      <div className="mx-8 grid grid-cols-4 gap-8">
+      <div className="mx-8 grid grid-cols-2 gap-8 md:grid-cols-4">
         {data.featured.map(({ image, title, slug, author }, i) => (
           <Link href={`/collection/${slug}`} key={i}>
             <Image
